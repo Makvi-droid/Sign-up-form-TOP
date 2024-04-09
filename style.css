@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+:root{
+    --font: 'Teko', 'Open Sans', 'Lato';
+}
+
 body{
     background-image: url(bg-image.png);
     background-position: center;
@@ -17,3 +21,12 @@ body{
     position: fixed;
     right: 0;
 }
+
+.intro{
+    position: relative;
+    top: 17vh;
+    left: 40px;
+    font-size: clamp(20px, 1.6rem, 4rem);
+    font-family: var(--font);
+}
+
