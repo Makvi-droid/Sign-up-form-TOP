@@ -47,18 +47,10 @@ body{
     font-family: 'Kanit', var(--font);
 }
 
-.name{
+.content{
+    height: 6.9cm;
+    width: 60vw;
+    background-color: aquamarine;
     position: relative;
-    left: 40px;
-    top: 17px;
-}
-
-#email{
-    position: relative;
-    top: 19px;
-}
-
-#password{
-    position: relative;
-    top: 37px;
+    left: 35px;
 }
