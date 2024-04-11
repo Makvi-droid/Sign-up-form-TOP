@@ -21,16 +21,19 @@
             <h2>Let's do this!</h2>
             <div class="content">
                 <label for="firstName" class="firstName">FIRST NAME</label><br>
-                <input type="text" name="firstName" id="firstName" placeholder="First Name"><br>
+                <input type="text" name="firstName" id="firstName" placeholder="First Name" required><br>
                 <label for="email" class="email">EMAIL</label><br>
-                <input type="email" name="email" id="email" placeholder="yourName@email.com"><br>
+                <input type="email" name="email" id="email" placeholder="yourName@email.com" required><br>
                 <label for="password" class="password">PASSWORD</label><br>
-                <input type="password" name="password" id="password">
+                <input type="password" name="password" id="password" required>
             </div>
             <div class="content-column-2">
                 <label for="lastName" id="lastName">LAST NAME</label><br>
-                <input type="text" name="lastName" id="lastName" placeholder="Last Name">
-
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name" required><br>
+                <label for="phoneNum">PHONE NUMBER</label><br>
+                <input type="tel" name="phoneNum" id="phoneNum" pattern="[0-9]{3}-[0-9]{3}[0-9]{4}" required><br>
+                <label for="confirm-password">CONFIRM PASSWORD</label><br>
+                <input type="password" name="confirm-password" id="confirm-password" required>
             </div>
         </form>
     </div>

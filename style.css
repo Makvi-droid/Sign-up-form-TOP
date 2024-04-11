@@ -17,7 +17,7 @@ body{
 .container{
     height: 100vh;
     width: 64%;
-    background-color: #f7f7f7;
+    background-color:#e8e8e8;
     position: fixed;
     right: 0;
 }
@@ -33,7 +33,7 @@ body{
 .ui{
     width: 100vw;
     height: 10cm;
-    background-color: rgb(252, 123, 123);
+    background-color: whitesmoke;
     position: relative;
     top: 3.9cm;
     box-shadow: 0px 10px 8px #dbd9d9;
@@ -52,7 +52,7 @@ body{
 label,input{
     margin: 10px;
     position: relative;
-    top: 3cm;
+    top: 2.2cm;
     right: 4cm;
 }
 
@@ -64,3 +64,15 @@ label,input{
     gap: 20px;
 }
 
+label{
+    font-family: 'Raleway',var(--font);
+    font-weight: bold;
+    font-size: clamp(10px, 1.5rem, 4rem);
+}
+
+input{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    width: 6cm;
+}
