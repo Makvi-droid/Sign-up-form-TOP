@@ -37,6 +37,8 @@ body{
     position: relative;
     top: 3.9cm;
     box-shadow: 0px 10px 8px #dbd9d9;
+    display: flex;
+    
 }
 
 .ui h2{
@@ -47,10 +49,18 @@ body{
     font-family: 'Kanit', var(--font);
 }
 
+label,input{
+    margin: 10px;
+    position: relative;
+    top: 3cm;
+    right: 4cm;
+}
+
 .content{
     height: 6.9cm;
-    width: 60vw;
-    background-color: aquamarine;
+    width: 20vw;
     position: relative;
     left: 35px;
+    gap: 20px;
 }
+
