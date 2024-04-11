@@ -67,12 +67,70 @@ label,input{
 label{
     font-family: 'Raleway',var(--font);
     font-weight: bold;
-    font-size: clamp(10px, 1.5rem, 4rem);
+    font-size: clamp(10px, 1.3rem, 4rem);
+    letter-spacing: 2px;
 }
 
 input{
     padding: 8px;
     border-radius: 5px;
-    border: none;
+    border: 1px solid #E5E7EB;
     width: 6cm;
 }
+
+.footer{
+   position: relative;
+   top: 47vh;
+   right: 40vw;
+}
+
+.btn{
+    padding: 9px;
+    width: 5cm;
+    font-size: clamp(15px, 1rem, 4rem);
+    font-family: 'Quicksand', var(--font);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    background-color: #596D48;
+    color: white;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: #06a149;
+}
+
+.paragraph{
+    font-family: 'Open Sans', var(--font);
+    font-weight: bold;
+}
+
+.log-in-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: #596D48;
+    transition: 0.3s;
+}
+
+.log-in-link:hover{
+    text-decoration: underline;
+}
+
+#password,#confirm-password:valid{
+    border: #06a149;
+}
+
+#password,#confirm-password:invalid{
+    border: red;
+}
+
+input:focus {
+    outline: 2px solid blue;
+  }
+
+
+
+
