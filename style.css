@@ -20,6 +20,7 @@ body{
     background-color:#e8e8e8;
     position: fixed;
     right: 0;
+    z-index: 1;
 }
 
 .intro{
@@ -129,7 +130,32 @@ input{
 
 input:focus {
     outline: 2px solid blue;
-  }
+}
+
+.odin-logo{
+    height: 180px;
+    width: auto;
+    position: relative;
+    left: 2cm;
+    padding-top: 37px;
+}
+
+.wrapper{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 7cm;
+    width: 100vw;
+    position: relative;
+    top: 4cm;
+}
+
+.odin-name{
+    margin-left: 6cm;
+    color: white;
+    font-family: 'Protest Guerrilla', var(--font);
+    font-size: 4rem;
+    position: relative;
+    bottom: 120px;
+}
 
 
 
